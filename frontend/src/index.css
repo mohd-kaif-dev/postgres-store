@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+@plugin "daisyui/theme" {
+  name: "pastel";
+  default: true;
+  --color-primary: #f38c79;
+  --color-secondary: teal;
+  --color-primary-content: #ffffff;
+}
+
+@plugin "daisyui/theme" {
+  name: "retro";
+  default: true;
+  --color-secondary: #be5985;
+}
+@plugin "daisyui/theme" {
+  name: "coffee";
+  default: true;
+  --color-secondary: #ebe8db;
+}
+@plugin "daisyui/theme" {
+  name: "cyberpunk";
+  default: true;
+  --color-primary: #c14600;
+  --color-secondary: #640d5f;
+}
+
+.textarea {
+  border-radius: 20px;
+}
